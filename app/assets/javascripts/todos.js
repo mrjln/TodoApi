@@ -3,6 +3,7 @@ function toggleDone() {
   var tableRow = $(this).parent().parent();
 
   var todoId = tableRow.data('id');
+  //maybe change todo_id in 'id'
   var isCompleted = !tableRow.hasClass("success");
 
 
